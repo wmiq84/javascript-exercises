@@ -5,8 +5,8 @@ const removeFromArray = function (array, ...args) {
   // create a new empty array
   const newArray = [];
   // use forEach to go through the array
-  array.forEach((item) => {
-    // push every element into the new array
+  array.forEach((item) => { //calls function for each element in each array
+    /    // push every element into the new array
     // UNLESS it is included in the function arguments
     // so we create a new array with every item, except those that should be removed
     if (!args.includes(item)) {
