@@ -3,9 +3,9 @@ const fibonacci = function(countArg) {
     // a number throughout rest of function.
     let count
     if (typeof countArg !== 'number') {
-        count = parseInt(countArg)
+        count = parseInt(countArg);
     } else {
-        count = countArg
+        count = countArg;
     }
 
     if (count < 0) return "OOPS";
